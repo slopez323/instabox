@@ -1,0 +1,32 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.header{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40%;
+}
+    .icon{
+        padding:10px;
+        margin:10px;
+    }
+    .information{
+       margin-left: 40px;
+       font-family: Helvetica;
+    }
+
+.categories{
+    display:flex;
+    flex-flow: row nowrap;
+    margin-top: 50px;
+    width: 40%;
+    justify-content: space-evenly;
+}
+img{
+    vertical-align: middle;
+}
